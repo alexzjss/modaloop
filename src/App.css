@@ -1,15 +1,1 @@
-main { overflow: hidden; }
-.pointsSection { max-width: 1180px; margin: 0 auto; padding: 108px 28px; scroll-margin-top: 60px; }
-.pointsIntro { max-width: 630px; }
-.pointsIntro h2, .section h2 { font-size: clamp(2.2rem, 5vw, 4.15rem); line-height: .98; letter-spacing: -.055em; margin: 0 0 18px; }
-.pointsIntro > p:last-child { max-width: 460px; line-height: 1.55; color: #536159; font-size: 1.1rem; }
-.locationPrompt { margin-top: 38px; padding: 44px 28px; border: 1px dashed #a1ad94; text-align: center; background: #ecf0e6; border-radius: 24px; }
-.locationPrompt h3 { font-size: 1.5rem; margin: 10px 0 8px; }
-.locationPrompt p { color: #5a695c; margin: 0 0 22px; }
-.pin { color: #ef5b35; font-size: 2.6rem; line-height: 1; }
-.error { color: #a12d1a !important; margin: 18px 0 0 !important; }
-.results { margin-top: 42px; }
-.resultsHeader { display: flex; justify-content: space-between; align-items: center; gap: 18px; margin-bottom: 18px; }
-.resultsHeader p { color: #46623d; margin: 0; font-weight: 600; }.resultsHeader p span { color: #d5e940; margin-right: 7px; }
-.pointGrid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
-@media (max-width: 650px) { .pointsSection { padding: 70px 18px; }.pointGrid { grid-template-columns: 1fr; }.resultsHeader { align-items: flex-start; flex-direction: column; }.pointsIntro h2 { font-size: 2.75rem; } }
+main { overflow: hidden; }.pointsSection { max-width: 1180px; margin: 0 auto; padding: 108px 28px; scroll-margin-top: 60px; }.pointsIntro { max-width: 630px; }.pointsIntro h2, .section h2 { font-size: clamp(2.2rem, 5vw, 4.15rem); line-height: .98; letter-spacing: -.055em; margin: 0 0 18px; }.pointsIntro > p:last-child { max-width: 460px; line-height: 1.55; color: var(--muted); font-size: 1.1rem; }.locationPrompt { margin-top: 38px; padding: 44px 28px; border: 1px dashed #9c76de; text-align: center; background: linear-gradient(135deg, #eee1ff, #fff6fc); border-radius: 24px; box-shadow: 10px 10px 0 #d9c6fc; }.locationPrompt h3 { font-size: 1.5rem; margin: 10px 0 8px; }.locationPrompt p { color: var(--muted); margin: 0 0 22px; }.pin { color: var(--pink); font-size: 2.6rem; line-height: 1; }.error { color: #bd1e65 !important; margin: 18px 0 0 !important; }.results { margin-top: 42px; }.resultsHeader { display: flex; justify-content: space-between; align-items: center; gap: 18px; margin-bottom: 18px; }.resultsHeader p { color: var(--purple-deep); margin: 0; font-weight: 700; }.resultsHeader p span { color: var(--pink); margin-right: 7px; }.pointGrid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }@media (max-width: 650px) { .pointsSection { padding: 70px 18px; }.pointGrid { grid-template-columns: 1fr; }.resultsHeader { align-items: flex-start; flex-direction: column; }.pointsIntro h2 { font-size: 2.75rem; } }

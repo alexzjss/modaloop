@@ -1,5 +1,5 @@
 import styles from './Header.module.css'
-import uspMark from '../assets/usp-mark.svg'
+import uspMark from '../assets/usp-logo-transp.png'
 
 export function Header() {
   return (

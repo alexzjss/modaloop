@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono&family=Outfit:wght@400;500;600;700;800&display=swap');
 
-:root { font-family: Outfit, Arial, sans-serif; color: #17251e; background: #f6f4ed; font-synthesis: none; }
+:root { --ink: #241238; --muted: #665b73; --purple: #6637c9; --purple-deep: #38146d; --pink: #ff4fa2; --acid: #dfff42; --lilac: #f5efff; --paper: #fffaff; font-family: Outfit, Arial, sans-serif; color: var(--ink); background: var(--lilac); font-synthesis: none; }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
-body { margin: 0; min-width: 320px; }
+body { margin: 0; min-width: 320px; background: radial-gradient(circle at 8% 18%, #ffd5eb 0, transparent 27%), radial-gradient(circle at 92% 48%, #e5ff90 0, transparent 24%), var(--lilac); }
 button, a { font: inherit; }
 button { cursor: pointer; }
 a { color: inherit; }
-.sectionLabel { margin: 0 0 12px; color: #617252; text-transform: uppercase; letter-spacing: .12em; font: 12px 'DM Mono', monospace; }
+.sectionLabel { margin: 0 0 12px; color: var(--purple); text-transform: uppercase; letter-spacing: .12em; font: 12px 'DM Mono', monospace; }

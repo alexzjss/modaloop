@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 212 72" role="img" aria-labelledby="title desc">
-  <title id="title">USP</title>
-  <desc id="desc">Identificação visual da Universidade de São Paulo</desc>
-  <rect width="212" height="72" rx="8" fill="#fff"/>
-  <path d="M16 15h10v24c0 8 3 12 11 12s11-4 11-12V15h10v25c0 14-8 21-21 21S16 54 16 40V15Z" fill="#183e74"/>
-  <path d="M71 18c5-3 10-4 17-4 12 0 20 6 20 16 0 8-5 12-14 15l-8 3c-4 1-6 3-6 6 0 3 3 5 8 5 5 0 10-2 15-5l4 8c-5 4-12 6-21 6-12 0-20-6-20-16 0-8 5-13 14-16l8-3c4-1 6-3 6-5 0-3-3-5-8-5-4 0-9 1-13 4l-3-9Z" fill="#183e74"/>
-  <path d="M120 15h22c14 0 22 7 22 18 0 12-8 19-23 19h-10v15h-11V15Zm21 28c7 0 11-3 11-9s-4-9-11-9h-10v18h10Z" fill="#183e74"/>
-  <path d="M174 15h4l15 26 15-26h4v52h-10V38l-11 19h-5l-11-19v29h-10V15h19Z" fill="#e6a71c" opacity=".92"/>
-</svg>

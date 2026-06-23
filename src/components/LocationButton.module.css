@@ -1,1 +1,1 @@
-.button { border: 1px solid #263c2d; background: transparent; border-radius: 50px; padding: 10px 16px; color: #263c2d; font-size: .9rem; font-weight: 600; }.button:hover { background: #263c2d; color: white; }.button:disabled { opacity: .65; cursor: wait; }
+.button { border: 1px solid var(--purple); background: transparent; border-radius: 50px; padding: 10px 16px; color: var(--purple); font-size: .9rem; font-weight: 700; }.button:hover { background: var(--purple); color: #fff; }.button:disabled { opacity: .65; cursor: wait; }
