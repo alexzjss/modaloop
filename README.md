@@ -26,23 +26,6 @@ Cada ponto possui identificador, nome, endereço, latitude, longitude, descriç�
 
 Parte dos endereços e coordenadas é aproximada e está identificada como “a confirmar”. Esses dados devem ser validados com a organização responsável antes de uso operacional. O centro logístico em São Bernardo do Campo não é tratado como ponto público de entrega sem confirmação prévia.
 
-## Publicação no GitHub Pages
-
-O projeto está configurado para o repositório `modaloop` em `vite.config.ts`:
-
-```ts
-base: '/modaloop/'
-```
-
-Para gerar e publicar a versão estática:
-
-```powershell
-npm.cmd run build
-npm.cmd run deploy
-```
-
-No GitHub, configure **Settings → Pages** para publicar a branch `gh-pages`, pasta `/(root)`. O endereço esperado é `https://alexzjss.github.io/modaloop/`.
-
 ## Referências
 
 - [UNEP — moda e têxteis sustentáveis](https://www.unep.org/news-and-stories/press-release/unsustainable-fashion-and-textiles-focus-international-day-zero)
