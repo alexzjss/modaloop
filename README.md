@@ -31,6 +31,3 @@ Parte dos endereços e coordenadas é aproximada e está identificada como “a 
 - [UNEP — moda e têxteis sustentáveis](https://www.unep.org/news-and-stories/press-release/unsustainable-fashion-and-textiles-focus-international-day-zero)
 - [European Environment Agency — têxteis](https://www.eea.europa.eu/en/topics/in-depth/textiles)
 - [Ellen MacArthur Foundation — moda circular](https://www.ellenmacarthurfoundation.org/topics/fashion/overview)
-- [EPA — gestão sustentável de roupas e calçados](https://www.epa.gov/smm/sustainable-management-clothing-and-footwear)
-- [USP — sustentabilidade](https://www5.usp.br/tag/sustentabilidade/)
-- [EACH-USP — Escola de Artes, Ciências e Humanidades](https://www.each.usp.br/)
