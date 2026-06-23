@@ -1,32 +1,64 @@
-<<<<<<< HEAD
 # ModaLoop
 
-Aplicação estática para descobrir pontos de coleta de roupas próximos. Não usa backend, login, banco de dados ou chave de API.
+Aplicação web estática para localizar pontos de coleta de roupas e orientar o descarte têxtil responsável.
 
-O app também traz um guia de preparação, tipos de itens e condições apropriadas para descarte. O ponto têxtil indicado no Brás é uma referência aproximada: confirme com o operador o funcionamento, os materiais aceitos e o destino final antes de levar peças.
+## Stack
 
-## Desenvolvimento
+- React
+- TypeScript
+- Vite
+- CSS Modules e CSS global
+- GitHub Pages para hospedagem
+
+Não há backend, autenticação, banco de dados ou chaves de API.
+
+## Execução local
 
 ```bash
 npm install
 npm run dev
 ```
 
+No PowerShell com a execução de scripts bloqueada, use `npm.cmd`:
+
+```powershell
+npm.cmd run dev
+```
+
+## Processamento
+
+Os pontos de coleta são dados estáticos no arquivo `src/data/collectionPoints.ts`.
+
+Quando a pessoa usuária seleciona **Usar minha localização**, o navegador solicita permissão pela Geolocation API. A coordenada recebida permanece apenas em memória. O app calcula a distância em linha reta com a fórmula de Haversine e ordena os pontos do mais próximo para o mais distante.
+
+Após a seleção de um ponto, o app mostra uma prévia pública do Google Maps e disponibiliza um link para abrir a rota. Não é usada API privada do Google Maps.
+
+## Dados de localização
+
+Cada ponto possui identificador, nome, endereço, latitude, longitude, descrição e tipo. Alguns registros também incluem informações sobre itens aceitos, condição recomendada e destino informado.
+
+Parte dos endereços e coordenadas é aproximada e está identificada como “a confirmar”. Esses dados devem ser validados com a organização responsável antes de uso operacional. O centro logístico em São Bernardo do Campo não é tratado como ponto público de entrega sem confirmação prévia.
+
 ## Publicação no GitHub Pages
 
-O projeto está configurado para o repositório `clothing`: a propriedade `base` em `vite.config.ts` é `/clothing/`. Se o repositório for renomeado, atualize esse valor para `/<novo-repositorio>/` antes do deploy.
+O projeto está configurado para o repositório `modaloop` em `vite.config.ts`:
 
-1. Envie o código para o repositório no GitHub.
-2. Execute `npm run deploy`. O comando gera a pasta estática `dist` e publica seu conteúdo na branch `gh-pages`.
-3. No GitHub, abra **Settings → Pages** e selecione **Deploy from a branch**. Escolha a branch `gh-pages` e a pasta `/(root)`.
-4. O site ficará disponível em `https://<usuario>.github.io/clothing/`.
+```ts
+base: '/modaloop/'
+```
 
-Para conferir a versão de produção localmente, execute `npm run build` e depois `npm run preview`.
+Para gerar e publicar a versão estática:
 
-## Mapa e localização
+```powershell
+npm.cmd run build
+npm.cmd run deploy
+```
 
-O navegador solicita localização somente após a ação da pessoa usuária. A coordenada é usada em memória para calcular a distância em linha reta até os pontos cadastrados e não é armazenada. A prévia e a rota usam URLs públicas do Google Maps, sem chave privada. Os dois pontos iniciais e suas coordenadas estão em `src/data/collectionPoints.ts`; ambos devem ser confirmados/ajustados pelos responsáveis antes de um lançamento definitivo.
-=======
-# modaloop
-Plataforma web que conecta usuários a pontos de coleta de roupas usadas, promovendo o descarte têxtil consciente por meio de geolocalização, informações ambientais e acesso facilitado a locais de reciclagem e reaproveitamento.
->>>>>>> origin/main
+No GitHub, configure **Settings → Pages** para publicar a branch `gh-pages`, pasta `/(root)`. O endereço esperado é `https://alexzjss.github.io/modaloop/`.
+
+## Referências
+
+- [UNEP — moda e têxteis sustentáveis](https://www.unep.org/news-and-stories/press-release/unsustainable-fashion-and-textiles-focus-international-day-zero)
+- [European Environment Agency — têxteis](https://www.eea.europa.eu/en/topics/in-depth/textiles)
+- [Ellen MacArthur Foundation — moda circular](https://www.ellenmacarthurfoundation.org/topics/fashion/overview)
+- [EPA — gestão sustentável de roupas e calçados](https://www.epa.gov/smm/sustainable-management-clothing-and-footwear)
