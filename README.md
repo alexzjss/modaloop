@@ -12,19 +12,6 @@ Aplicação web estática para localizar pontos de coleta de roupas e orientar o
 
 Não há backend, autenticação, banco de dados ou chaves de API.
 
-## Execução local
-
-```bash
-npm install
-npm run dev
-```
-
-No PowerShell com a execução de scripts bloqueada, use `npm.cmd`:
-
-```powershell
-npm.cmd run dev
-```
-
 ## Processamento
 
 Os pontos de coleta são dados estáticos no arquivo `src/data/collectionPoints.ts`.
