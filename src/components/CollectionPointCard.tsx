@@ -11,7 +11,13 @@ export function CollectionPointCard({ point, distance, selected, onSelect }: Pro
       <h3>{point.name}</h3>
       <p>{point.description}</p>
       <address>{point.address}</address>
-      <button onClick={() => onSelect(point)}>{selected ? 'Ponto selecionado' : 'Escolher este ponto'} <span>→</span></button>
+      {point.acceptedItems && <dl className={styles.details}>
+        <div><dt>👕 Recebe</dt><dd>{point.acceptedItems}</dd></div>
+        {point.destination && <div><dt>♻ Destino</dt><dd>{point.destination}</dd></div>}
+      </dl>}
+      {point.acceptsPublicDropoff === false
+        ? <p className={styles.warning}>⚠ Confirme se há atendimento ao público antes de criar uma rota.</p>
+        : <button onClick={() => onSelect(point)}>{selected ? 'Ponto selecionado' : 'Escolher este ponto'} <span>→</span></button>}
     </article>
   )
 }
