@@ -62,3 +62,5 @@ No GitHub, configure **Settings → Pages** para publicar a branch `gh-pages`, p
 - [European Environment Agency — têxteis](https://www.eea.europa.eu/en/topics/in-depth/textiles)
 - [Ellen MacArthur Foundation — moda circular](https://www.ellenmacarthurfoundation.org/topics/fashion/overview)
 - [EPA — gestão sustentável de roupas e calçados](https://www.epa.gov/smm/sustainable-management-clothing-and-footwear)
+- [USP — sustentabilidade](https://www5.usp.br/tag/sustentabilidade/)
+- [EACH-USP — Escola de Artes, Ciências e Humanidades](https://www.each.usp.br/)

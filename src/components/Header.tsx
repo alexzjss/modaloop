@@ -1,4 +1,5 @@
 import styles from './Header.module.css'
+import uspMark from '../assets/usp-mark.svg'
 
 export function Header() {
   return (
@@ -7,6 +8,7 @@ export function Header() {
         <span className={styles.brandMark}>M</span>
         <span>Moda<span>Loop</span></span>
       </a>
+      <span className={styles.usp}><span className={styles.divider} aria-hidden="true" /><img src={uspMark} alt="USP — Universidade de São Paulo" /></span>
       <nav className={styles.nav} aria-label="Navegação principal">
         <a className={styles.link} href="#guia">Guia de descarte</a>
         <a className={styles.link} href="#impacto">Nosso impacto</a>
