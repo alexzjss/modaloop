@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono&family=Outfit:wght@400;500;600;700;800&display=swap');
+
+:root { font-family: Outfit, Arial, sans-serif; color: #17251e; background: #f6f4ed; font-synthesis: none; }
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; min-width: 320px; }
+button, a { font: inherit; }
+button { cursor: pointer; }
+a { color: inherit; }
+.sectionLabel { margin: 0 0 12px; color: #617252; text-transform: uppercase; letter-spacing: .12em; font: 12px 'DM Mono', monospace; }
