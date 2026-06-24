@@ -5,7 +5,7 @@ import styles from './MapPreview.module.css'
 export function MapPreview({ point }: { point: CollectionPoint }) {
   return (
     <section className={styles.section} aria-live="polite">
-      <div className={styles.heading}><p className="sectionLabel">seu destino</p><h2>Rota para {point.name}</h2></div>
+      <div className={styles.heading}><p className="sectionLabel">seu destino</p><h2>Rota para {point.name}</h2><p>{point.address}</p></div>
       <div className={styles.mapFrame}>
         <iframe title={`Mapa de ${point.name}`} src={mapEmbedUrl(point)} loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
       </div>

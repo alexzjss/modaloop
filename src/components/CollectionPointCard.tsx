@@ -11,6 +11,7 @@ export function CollectionPointCard({ point, distance, selected, onSelect }: Pro
       <h3>{point.name}</h3>
       <p>{point.description}</p>
       <address>{point.address}</address>
+      <p className={styles.verification}>Endereço conferido em junho de 2026{point.sourceUrl && <> · <a href={point.sourceUrl} target="_blank" rel="noreferrer">ver fonte</a></>}</p>
       {point.acceptedItems && <dl className={styles.details}>
         <div><dt>👕 Recebe</dt><dd>{point.acceptedItems}</dd></div>
         {point.destination && <div><dt>♻ Destino</dt><dd>{point.destination}</dd></div>}

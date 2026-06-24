@@ -1,1 +1,18 @@
-.card { padding: 25px; background: rgba(255, 250, 255, .9); border: 1px solid #dfd1f0; border-radius: 17px; box-shadow: 0 8px 22px rgba(76, 34, 130, .06); transition: transform .2s, border-color .2s, box-shadow .2s; }.card:hover { transform: translateY(-4px); border-color: var(--pink); box-shadow: 0 12px 28px rgba(155, 37, 121, .14); }.selected { border: 2px solid var(--purple); background: #f0ffc6; }.topline { display: flex; justify-content: space-between; gap: 10px; font: 11px 'DM Mono', monospace; text-transform: uppercase; color: var(--purple); letter-spacing: .04em; }.topline strong { color: #dc287c; white-space: nowrap; }.card h3 { font-size: 1.4rem; margin: 17px 0 8px; letter-spacing: -.035em; }.card p { color: var(--muted); line-height: 1.45; margin: 0 0 14px; }.card address { font-size: .85rem; font-style: normal; color: #86758f; line-height: 1.4; }.card button { padding: 0; margin-top: 22px; background: none; border: none; color: var(--purple); font-weight: 800; }.card button span { font-size: 1.1em; margin-left: 5px; }.details { margin: 18px 0 0; padding-top: 15px; border-top: 1px solid #eadff2; }.details div + div { margin-top: 11px; }.details dt { color: var(--purple); font: 10px 'DM Mono', monospace; letter-spacing: .06em; text-transform: uppercase; }.details dd { margin: 4px 0 0; color: var(--muted); font-size: .83rem; line-height: 1.4; }.warning { margin: 20px 0 0 !important; color: #c2216b !important; font-size: .86rem; }
+.card { padding: 25px; background: rgba(255, 253, 253, .92); border: 1px solid #ddcfe8; border-radius: 17px; box-shadow: 0 8px 22px rgba(93, 74, 121, .08); transition: transform .2s, border-color .2s, box-shadow .2s; }
+.card:hover { transform: translateY(-4px); border-color: #bf9acb; box-shadow: 0 12px 28px rgba(115, 91, 145, .14); }
+.selected { border: 2px solid var(--purple); background: #f1f7d9; }
+.topline { display: flex; justify-content: space-between; gap: 10px; font: 11px 'DM Mono', monospace; text-transform: uppercase; color: var(--purple); letter-spacing: .04em; }
+.topline strong { color: #a94774; white-space: nowrap; }
+.card h3 { font-size: 1.4rem; margin: 17px 0 8px; letter-spacing: -.035em; }
+.card p { color: var(--muted); line-height: 1.45; margin: 0 0 14px; }
+.card address { font-size: .85rem; font-style: normal; color: #62576c; line-height: 1.4; }
+.verification { margin: 7px 0 0 !important; color: #786a80 !important; font-size: .76rem; }
+.verification a { color: var(--purple); font-weight: 700; }
+.card button { padding: 0; margin-top: 22px; background: none; border: none; color: var(--purple-deep); font-weight: 800; }
+.card button:hover { color: var(--pink); }
+.card button span { font-size: 1.1em; margin-left: 5px; }
+.details { margin: 18px 0 0; padding-top: 15px; border-top: 1px solid #eadff0; }
+.details div + div { margin-top: 11px; }
+.details dt { color: var(--purple); font: 10px 'DM Mono', monospace; letter-spacing: .06em; text-transform: uppercase; }
+.details dd { margin: 4px 0 0; color: var(--muted); font-size: .83rem; line-height: 1.4; }
+.warning { margin: 20px 0 0 !important; color: #9f3f69 !important; font-size: .86rem; }

@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono&family=Outfit:wght@400;500;600;700;800&display=swap');
 
-:root { --ink: #241238; --muted: #665b73; --purple: #6637c9; --purple-deep: #38146d; --pink: #ff4fa2; --acid: #dfff42; --lilac: #f5efff; --paper: #fffaff; font-family: Outfit, Arial, sans-serif; color: var(--ink); background: var(--lilac); font-synthesis: none; }
+:root { --ink: #353041; --muted: #625d6d; --purple: #725d91; --purple-deep: #514263; --pink: #a94f79; --acid: #dcecae; --lilac: #faf7fd; --paper: #fffdfd; font-family: Outfit, Arial, sans-serif; color: var(--ink); background: var(--lilac); font-synthesis: none; }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
-body { margin: 0; min-width: 320px; background: radial-gradient(circle at 8% 18%, #ffd5eb 0, transparent 27%), radial-gradient(circle at 92% 48%, #e5ff90 0, transparent 24%), var(--lilac); }
+body { margin: 0; min-width: 320px; background: radial-gradient(circle at 8% 18%, #f8dfe9 0, transparent 27%), radial-gradient(circle at 92% 48%, #e8f2ca 0, transparent 24%), var(--lilac); }
 button, a { font: inherit; }
 button { cursor: pointer; }
 a { color: inherit; }

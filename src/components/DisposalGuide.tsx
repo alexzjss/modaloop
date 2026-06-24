@@ -17,7 +17,7 @@ export function DisposalGuide() {
     <section id="guia" className={styles.section}>
       <div className={styles.heading}>
         <p className="sectionLabel">guia rápido · peça por peça</p>
-        <h2>Antes de soltar a peça, <em>olhe para ela.</em></h2>
+        <h2>Antes de descartar, <em>avalie a peça.</em></h2>
         <p>O melhor destino depende do tipo, da condição e da regra de quem recebe. Separar bem aumenta as chances de reuso e reduz contaminação.</p>
       </div>
 
@@ -33,11 +33,11 @@ export function DisposalGuide() {
       <aside className={styles.bras}>
         <div className={styles.brasIcon}>♻<span>👕</span></div>
         <div>
-          <p className={styles.brasLabel}>atenção ao ponto do Brás</p>
-          <h3>Destino: triagem primeiro, rota confirmada depois.</h3>
-          <p>Este app usa o “Ecoponto Têxtil no Brás” como referência inicial de localização. Não há, nesta versão, confirmação pública do operador, dos materiais aceitos ou do destino final desse ponto. Por isso, não trate a prévia do mapa como garantia de recebimento.</p>
-          <ol><li><strong>Antes de sair:</strong> confirme horário, aceitação de têxteis e condição permitida diretamente com o local.</li><li><strong>Se receber peças boas:</strong> a rota mais adequada é triagem para reuso/doação.</li><li><strong>Se receber peças sem condição de uso:</strong> confirme se há encaminhamento para reaproveitamento ou reciclagem têxtil.</li></ol>
-          <p className={styles.brasNote}>A ModaLoop exibirá o destino específico quando ele for publicado ou validado pelo responsável pelo ponto.</p>
+          <p className={styles.brasLabel}>ecoponto têxtil do Brás</p>
+          <h3>Peças limpas ganham uma rota mais clara.</h3>
+          <p>O Ecoponto Têxtil Brás fica na Rua Cachoeira, 958, em Catumbi. Ele recebe resíduos têxteis para triagem e encaminhamento dentro da rede municipal.</p>
+          <ol><li><strong>Antes de sair:</strong> separe roupas, tecidos e retalhos limpos e secos.</li><li><strong>Peças em bom estado:</strong> priorize reuso ou doação quando o ponto aceitar.</li><li><strong>Peças sem condição de uso:</strong> destine ao ecoponto para a triagem adequada.</li></ol>
+          <p className={styles.brasNote}>Endereço revisado em junho de 2026. Consulte o serviço se precisar confirmar regras específicas de recebimento.</p>
         </div>
       </aside>
     </section>
