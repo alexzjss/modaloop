@@ -58,7 +58,7 @@ function App() {
     )
   }
 
-  return <><Header /><main><Hero onFindPoints={findLocation} /><DisposalGuide />
+  return <><Header /><main><Hero onFindPoints={findLocation} loading={loadingLocation} /><DisposalGuide />
     <section id="pontos" className="pointsSection">
       <div className="pointsIntro"><p className="sectionLabel">encontre um ponto</p><h2>Seu próximo destino começa aqui.</h2><p>Permita sua localização para ver os pontos em ordem de proximidade.</p></div>
       {!location && <div className="locationPrompt"><div className="pin">⌖</div><h3>Vamos encontrar o mais perto?</h3><p>Compartilhe sua localização para organizar os pontos por distância. Nada fica salvo.</p><LocationButton onClick={findLocation} loading={loadingLocation} label="Usar minha localização" />{locationError && <p className="error" role="alert">{locationError}</p>}</div>}
